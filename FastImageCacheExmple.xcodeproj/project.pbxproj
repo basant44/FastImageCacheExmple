@@ -14,6 +14,7 @@
 		28C238631B662F7E0003B068 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28C238621B662F7E0003B068 /* Images.xcassets */; };
 		28C238661B662F7E0003B068 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28C238641B662F7E0003B068 /* LaunchScreen.xib */; };
 		28C238721B662F7E0003B068 /* FastImageCacheExmpleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C238711B662F7E0003B068 /* FastImageCacheExmpleTests.m */; };
+		F54436B93D14C0AC255BB807 /* libPods-FastImageCacheExmple.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC5E7950EAD67C8618B32EE /* libPods-FastImageCacheExmple.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,9 @@
 		28C2386B1B662F7E0003B068 /* FastImageCacheExmpleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastImageCacheExmpleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C238701B662F7E0003B068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28C238711B662F7E0003B068 /* FastImageCacheExmpleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastImageCacheExmpleTests.m; sourceTree = "<group>"; };
+		78153C49F3FC4FB64D716A19 /* Pods-FastImageCacheExmple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastImageCacheExmple.release.xcconfig"; path = "Pods/Target Support Files/Pods-FastImageCacheExmple/Pods-FastImageCacheExmple.release.xcconfig"; sourceTree = "<group>"; };
+		BBC5E7950EAD67C8618B32EE /* libPods-FastImageCacheExmple.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FastImageCacheExmple.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDDD3FEDF6121AF5F8065100 /* Pods-FastImageCacheExmple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastImageCacheExmple.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FastImageCacheExmple/Pods-FastImageCacheExmple.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F54436B93D14C0AC255BB807 /* libPods-FastImageCacheExmple.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +71,8 @@
 				28C238541B662F7E0003B068 /* FastImageCacheExmple */,
 				28C2386E1B662F7E0003B068 /* FastImageCacheExmpleTests */,
 				28C238531B662F7E0003B068 /* Products */,
+				7EE7458DFA2C5A01C473812B /* Pods */,
+				CAF40E189DACC29E71AE13BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +126,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7EE7458DFA2C5A01C473812B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDDD3FEDF6121AF5F8065100 /* Pods-FastImageCacheExmple.debug.xcconfig */,
+				78153C49F3FC4FB64D716A19 /* Pods-FastImageCacheExmple.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CAF40E189DACC29E71AE13BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBC5E7950EAD67C8618B32EE /* libPods-FastImageCacheExmple.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28C238751B662F7E0003B068 /* Build configuration list for PBXNativeTarget "FastImageCacheExmple" */;
 			buildPhases = (
+				90045A2B3D4CB879E8A714BA /* Check Pods Manifest.lock */,
 				28C2384E1B662F7E0003B068 /* Sources */,
 				28C2384F1B662F7E0003B068 /* Frameworks */,
 				28C238501B662F7E0003B068 /* Resources */,
+				B024B188CF95697DA5D3F882 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,6 +239,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		90045A2B3D4CB879E8A714BA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B024B188CF95697DA5D3F882 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FastImageCacheExmple/Pods-FastImageCacheExmple-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		28C2384E1B662F7E0003B068 /* Sources */ = {
@@ -347,6 +406,7 @@
 		};
 		28C238761B662F7E0003B068 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDDD3FEDF6121AF5F8065100 /* Pods-FastImageCacheExmple.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FastImageCacheExmple/Info.plist;
@@ -357,6 +417,7 @@
 		};
 		28C238771B662F7E0003B068 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78153C49F3FC4FB64D716A19 /* Pods-FastImageCacheExmple.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FastImageCacheExmple/Info.plist;
@@ -418,6 +479,7 @@
 				28C238771B662F7E0003B068 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28C238781B662F7E0003B068 /* Build configuration list for PBXNativeTarget "FastImageCacheExmpleTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +488,7 @@
 				28C2387A1B662F7E0003B068 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

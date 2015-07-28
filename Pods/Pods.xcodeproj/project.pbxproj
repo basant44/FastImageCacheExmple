@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00EA7D0654759EF820240C8937FEDF84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4D732830F0174D0848E26FD9088F84 /* Foundation.framework */; };
+		0201BF0837694212390DCF10FAF224FE /* FICImageFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C3CA2165C2EE2B01DD0188A655FE68A /* FICImageFormat.h */; };
+		0515EC587D66B2D99106FE47005580E2 /* FICImports.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EE0D2D8F923D7430DB2922BE70704F4 /* FICImports.h */; };
+		0B6C98D6609B2C659CA5BA0C45FAA01E /* FICImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F0B4BE57089D2DD1F23B6991E9F631D2 /* FICImageCache.h */; };
+		271FE168329744BBC058A95727C0A883 /* FICImageFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2343E16BAF7A961B4A305C85CA5B3C /* FICImageFormat.m */; };
+		33392A05023C047182CC91E6568EB1B4 /* FICUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = E73870B93DFEC1ABB0F3FBEB93CF1236 /* FICUtilities.h */; };
+		37CD329D8643073C2DDFE3596272F6D1 /* FICUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 209898D0015D633E041B8A0EFF2E680B /* FICUtilities.m */; };
+		487B1AD35B802AB5D9CAFBD884D29E8C /* FICEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F9F02B578AEAA050FBA39C50DDF5B2 /* FICEntity.h */; };
+		534F00148AD2455BC00BB192B9DEB6ED /* FICImageTableEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = A99280DA3F6757841DE85904668616DD /* FICImageTableEntry.m */; };
+		5EFF90C7D9D9062645753711D1BFE1C1 /* FICImageTableChunk.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA81C7A1423A6B53B281A1B0E4830A /* FICImageTableChunk.m */; };
+		709FC67E35E97DFDDB4DE98A344FF425 /* FICImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 543BBA2EEA4AF7FBFA1B9E266003DD65 /* FICImageCache.m */; };
+		71CFF9A5A993A96E0FA59F9212012220 /* FICImageTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FC104EC3DC93D728380AFE195A566D /* FICImageTable.m */; };
+		9750CAEAF1C3D854B3031214C7C7DF2B /* FICImageTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 9654B7FA978BCF70FC708BBA98CA5482 /* FICImageTable.h */; };
+		A31106FE386A9E79F7ADFF3A3DE39E45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4D732830F0174D0848E26FD9088F84 /* Foundation.framework */; };
+		C473CDDA4738C28CD36EE13C63E5E117 /* Pods-FastImageCacheExmple-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20090D5A7C02A3E093E422D2AC43932B /* Pods-FastImageCacheExmple-dummy.m */; };
+		CB26838256838F395F15E6999DD01C5B /* FICImageTableEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = C02041FE3E276D7470EB112D4C1102FB /* FICImageTableEntry.h */; };
+		D819D6A32B700DC0389BD596BDC24B5C /* FICImageCache+FICErrorLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = B40F67494334A226A6B05AECC5D24518 /* FICImageCache+FICErrorLogging.h */; };
+		E79BA969CA5CF92590A146C68762AE93 /* FICImageTableChunk.h in Headers */ = {isa = PBXBuildFile; fileRef = 41B49746810BD065F674598705145F74 /* FICImageTableChunk.h */; };
+		F0D3C8E1C58B284E8897438907F30B0C /* FastImageCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4167B5DB11AD1D019C61EECB628EE8 /* FastImageCache-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1E0C30E26E78FB25F2DEC54BD16846E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41C0D5346142321D9733062513DC40A1;
+			remoteInfo = FastImageCache;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02D8722E07D244435CD8D7BFDB3482C6 /* Pods-FastImageCacheExmple-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FastImageCacheExmple-acknowledgements.markdown"; sourceTree = "<group>"; };
+		14190A4FA67491F832489F6F3AF69823 /* Pods-FastImageCacheExmple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FastImageCacheExmple.release.xcconfig"; sourceTree = "<group>"; };
+		1F4167B5DB11AD1D019C61EECB628EE8 /* FastImageCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FastImageCache-dummy.m"; sourceTree = "<group>"; };
+		20090D5A7C02A3E093E422D2AC43932B /* Pods-FastImageCacheExmple-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FastImageCacheExmple-dummy.m"; sourceTree = "<group>"; };
+		209898D0015D633E041B8A0EFF2E680B /* FICUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FICUtilities.m; path = FastImageCache/FICUtilities.m; sourceTree = "<group>"; };
+		2EE0D2D8F923D7430DB2922BE70704F4 /* FICImports.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FICImports.h; path = FastImageCache/FICImports.h; sourceTree = "<group>"; };
+		40FC104EC3DC93D728380AFE195A566D /* FICImageTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FICImageTable.m; path = FastImageCache/FICImageTable.m; sourceTree = "<group>"; };
+		41B49746810BD065F674598705145F74 /* FICImageTableChunk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FICImageTableChunk.h; path = FastImageCache/FICImageTableChunk.h; sourceTree = "<group>"; };
+		4292C9619AF6F09C4BCD359703A0D178 /* libFastImageCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFastImageCache.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B011FC2F87F738140525DF96EF872D /* FastImageCache-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FastImageCache-Private.xcconfig"; sourceTree = "<group>"; };
+		4C3CA2165C2EE2B01DD0188A655FE68A /* FICImageFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FICImageFormat.h; path = FastImageCache/FICImageFormat.h; sourceTree = "<group>"; };
+		543BBA2EEA4AF7FBFA1B9E266003DD65 /* FICImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FICImageCache.m; path = FastImageCache/FICImageCache.m; sourceTree = "<group>"; };
+		5C612AE9921FCC0E1403C855114DA5C2 /* Pods-FastImageCacheExmple-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FastImageCacheExmple-acknowledgements.plist"; sourceTree = "<group>"; };
+		74A246D538C40E78B473CB6766CC2223 /* FastImageCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FastImageCache-prefix.pch"; sourceTree = "<group>"; };
+		7BAA81C7A1423A6B53B281A1B0E4830A /* FICImageTableChunk.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FICImageTableChunk.m; path = FastImageCache/FICImageTableChunk.m; sourceTree = "<group>"; };
+		9654B7FA978BCF70FC708BBA98CA5482 /* FICImageTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FICImageTable.h; path = FastImageCache/FICImageTable.h; sourceTree = "<group>"; };
+		9B2343E16BAF7A961B4A305C85CA5B3C /* FICImageFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FICImageFormat.m; path = FastImageCache/FICImageFormat.m; sourceTree = "<group>"; };
+		A99280DA3F6757841DE85904668616DD /* FICImageTableEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FICImageTableEntry.m; path = FastImageCache/FICImageTableEntry.m; sourceTree = "<group>"; };
+		B40F67494334A226A6B05AECC5D24518 /* FICImageCache+FICErrorLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FICImageCache+FICErrorLogging.h"; path = "FastImageCache/FICImageCache+FICErrorLogging.h"; sourceTree = "<group>"; };
+		B6301CB7A37916F76B3127B85E526EBC /* Pods-FastImageCacheExmple-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FastImageCacheExmple-resources.sh"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE4D732830F0174D0848E26FD9088F84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C02041FE3E276D7470EB112D4C1102FB /* FICImageTableEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FICImageTableEntry.h; path = FastImageCache/FICImageTableEntry.h; sourceTree = "<group>"; };
+		C0E571E2E4B7006D03A6F33EDF6DDF2B /* Pods-FastImageCacheExmple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FastImageCacheExmple.debug.xcconfig"; sourceTree = "<group>"; };
+		CF9CC338E40E9A85D99E93C53EB4CC17 /* libPods-FastImageCacheExmple.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FastImageCacheExmple.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73870B93DFEC1ABB0F3FBEB93CF1236 /* FICUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FICUtilities.h; path = FastImageCache/FICUtilities.h; sourceTree = "<group>"; };
+		F0B4BE57089D2DD1F23B6991E9F631D2 /* FICImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FICImageCache.h; path = FastImageCache/FICImageCache.h; sourceTree = "<group>"; };
+		F4B409A3D9B4210F306BFD6598B50436 /* FastImageCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FastImageCache.xcconfig; sourceTree = "<group>"; };
+		F4F9F02B578AEAA050FBA39C50DDF5B2 /* FICEntity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FICEntity.h; path = FastImageCache/FICEntity.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA2F6FCA557EB80363D73E1B70D6C1C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00EA7D0654759EF820240C8937FEDF84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3ADCA514F9F624AEC7AD987BA4DFCD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A31106FE386A9E79F7ADFF3A3DE39E45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BE4D732830F0174D0848E26FD9088F84 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		544E15B348DE9FABB051CBD756229690 /* FastImageCache */ = {
+			isa = PBXGroup;
+			children = (
+				F4F9F02B578AEAA050FBA39C50DDF5B2 /* FICEntity.h */,
+				F0B4BE57089D2DD1F23B6991E9F631D2 /* FICImageCache.h */,
+				543BBA2EEA4AF7FBFA1B9E266003DD65 /* FICImageCache.m */,
+				B40F67494334A226A6B05AECC5D24518 /* FICImageCache+FICErrorLogging.h */,
+				4C3CA2165C2EE2B01DD0188A655FE68A /* FICImageFormat.h */,
+				9B2343E16BAF7A961B4A305C85CA5B3C /* FICImageFormat.m */,
+				9654B7FA978BCF70FC708BBA98CA5482 /* FICImageTable.h */,
+				40FC104EC3DC93D728380AFE195A566D /* FICImageTable.m */,
+				41B49746810BD065F674598705145F74 /* FICImageTableChunk.h */,
+				7BAA81C7A1423A6B53B281A1B0E4830A /* FICImageTableChunk.m */,
+				C02041FE3E276D7470EB112D4C1102FB /* FICImageTableEntry.h */,
+				A99280DA3F6757841DE85904668616DD /* FICImageTableEntry.m */,
+				2EE0D2D8F923D7430DB2922BE70704F4 /* FICImports.h */,
+				E73870B93DFEC1ABB0F3FBEB93CF1236 /* FICUtilities.h */,
+				209898D0015D633E041B8A0EFF2E680B /* FICUtilities.m */,
+				B2FC9855C77112BAF55841B7D0155337 /* Support Files */,
+			);
+			path = FastImageCache;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CB9A728AF00F20B4409F3ACAADEDA8EC /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				C95878195938873DA14C6EE48E8C714A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B2FC9855C77112BAF55841B7D0155337 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4B409A3D9B4210F306BFD6598B50436 /* FastImageCache.xcconfig */,
+				49B011FC2F87F738140525DF96EF872D /* FastImageCache-Private.xcconfig */,
+				1F4167B5DB11AD1D019C61EECB628EE8 /* FastImageCache-dummy.m */,
+				74A246D538C40E78B473CB6766CC2223 /* FastImageCache-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FastImageCache";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C95878195938873DA14C6EE48E8C714A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3B1323C4295B9BEF1BDFF03E1766837 /* Pods-FastImageCacheExmple */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CB9A728AF00F20B4409F3ACAADEDA8EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				544E15B348DE9FABB051CBD756229690 /* FastImageCache */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4292C9619AF6F09C4BCD359703A0D178 /* libFastImageCache.a */,
+				CF9CC338E40E9A85D99E93C53EB4CC17 /* libPods-FastImageCacheExmple.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3B1323C4295B9BEF1BDFF03E1766837 /* Pods-FastImageCacheExmple */ = {
+			isa = PBXGroup;
+			children = (
+				02D8722E07D244435CD8D7BFDB3482C6 /* Pods-FastImageCacheExmple-acknowledgements.markdown */,
+				5C612AE9921FCC0E1403C855114DA5C2 /* Pods-FastImageCacheExmple-acknowledgements.plist */,
+				20090D5A7C02A3E093E422D2AC43932B /* Pods-FastImageCacheExmple-dummy.m */,
+				B6301CB7A37916F76B3127B85E526EBC /* Pods-FastImageCacheExmple-resources.sh */,
+				C0E571E2E4B7006D03A6F33EDF6DDF2B /* Pods-FastImageCacheExmple.debug.xcconfig */,
+				14190A4FA67491F832489F6F3AF69823 /* Pods-FastImageCacheExmple.release.xcconfig */,
+			);
+			name = "Pods-FastImageCacheExmple";
+			path = "Target Support Files/Pods-FastImageCacheExmple";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		68832A14BB7C89FC96D254A20AFB8310 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				487B1AD35B802AB5D9CAFBD884D29E8C /* FICEntity.h in Headers */,
+				D819D6A32B700DC0389BD596BDC24B5C /* FICImageCache+FICErrorLogging.h in Headers */,
+				0B6C98D6609B2C659CA5BA0C45FAA01E /* FICImageCache.h in Headers */,
+				0201BF0837694212390DCF10FAF224FE /* FICImageFormat.h in Headers */,
+				9750CAEAF1C3D854B3031214C7C7DF2B /* FICImageTable.h in Headers */,
+				E79BA969CA5CF92590A146C68762AE93 /* FICImageTableChunk.h in Headers */,
+				CB26838256838F395F15E6999DD01C5B /* FICImageTableEntry.h in Headers */,
+				0515EC587D66B2D99106FE47005580E2 /* FICImports.h in Headers */,
+				33392A05023C047182CC91E6568EB1B4 /* FICUtilities.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		41C0D5346142321D9733062513DC40A1 /* FastImageCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03B96F71C37BCBF37BC26AC16F371E8B /* Build configuration list for PBXNativeTarget "FastImageCache" */;
+			buildPhases = (
+				8F1BB85F0475F253AAD4A44D010BB39B /* Sources */,
+				AA2F6FCA557EB80363D73E1B70D6C1C1 /* Frameworks */,
+				68832A14BB7C89FC96D254A20AFB8310 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastImageCache;
+			productName = FastImageCache;
+			productReference = 4292C9619AF6F09C4BCD359703A0D178 /* libFastImageCache.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		954CEFD4F6CB7A6E591063EBEBC17C34 /* Pods-FastImageCacheExmple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D14F35245F992C99DD12E99FCB02C5F /* Build configuration list for PBXNativeTarget "Pods-FastImageCacheExmple" */;
+			buildPhases = (
+				EAF208D2AD6CF152E334156ED0200F82 /* Sources */,
+				B3ADCA514F9F624AEC7AD987BA4DFCD3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37857AAC201E91FABBFC399ACB1DE6D8 /* PBXTargetDependency */,
+			);
+			name = "Pods-FastImageCacheExmple";
+			productName = "Pods-FastImageCacheExmple";
+			productReference = CF9CC338E40E9A85D99E93C53EB4CC17 /* libPods-FastImageCacheExmple.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41C0D5346142321D9733062513DC40A1 /* FastImageCache */,
+				954CEFD4F6CB7A6E591063EBEBC17C34 /* Pods-FastImageCacheExmple */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F1BB85F0475F253AAD4A44D010BB39B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709FC67E35E97DFDDB4DE98A344FF425 /* FICImageCache.m in Sources */,
+				271FE168329744BBC058A95727C0A883 /* FICImageFormat.m in Sources */,
+				71CFF9A5A993A96E0FA59F9212012220 /* FICImageTable.m in Sources */,
+				5EFF90C7D9D9062645753711D1BFE1C1 /* FICImageTableChunk.m in Sources */,
+				534F00148AD2455BC00BB192B9DEB6ED /* FICImageTableEntry.m in Sources */,
+				37CD329D8643073C2DDFE3596272F6D1 /* FICUtilities.m in Sources */,
+				F0D3C8E1C58B284E8897438907F30B0C /* FastImageCache-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF208D2AD6CF152E334156ED0200F82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C473CDDA4738C28CD36EE13C63E5E117 /* Pods-FastImageCacheExmple-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37857AAC201E91FABBFC399ACB1DE6D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FastImageCache;
+			target = 41C0D5346142321D9733062513DC40A1 /* FastImageCache */;
+			targetProxy = D1E0C30E26E78FB25F2DEC54BD16846E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		052A17875CB827423D627183396CEB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AE0DEFCE445A38AC33D3B32EBE09A08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49B011FC2F87F738140525DF96EF872D /* FastImageCache-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FastImageCache/FastImageCache-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A984A225351AD4461F090ED5E6562D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0E571E2E4B7006D03A6F33EDF6DDF2B /* Pods-FastImageCacheExmple.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E8694BF76699B567FF85BAFFEE31B1CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49B011FC2F87F738140525DF96EF872D /* FastImageCache-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FastImageCache/FastImageCache-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FA3FCAFCBA8B1276F0822951E78605D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14190A4FA67491F832489F6F3AF69823 /* Pods-FastImageCacheExmple.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03B96F71C37BCBF37BC26AC16F371E8B /* Build configuration list for PBXNativeTarget "FastImageCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AE0DEFCE445A38AC33D3B32EBE09A08 /* Debug */,
+				E8694BF76699B567FF85BAFFEE31B1CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D14F35245F992C99DD12E99FCB02C5F /* Build configuration list for PBXNativeTarget "Pods-FastImageCacheExmple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A984A225351AD4461F090ED5E6562D68 /* Debug */,
+				FA3FCAFCBA8B1276F0822951E78605D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */,
+				052A17875CB827423D627183396CEB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
