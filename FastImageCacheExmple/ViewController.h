@@ -11,6 +11,8 @@
 @interface ViewController : UIViewController
 
 @property (strong,nonatomic) NSString *strr;
+@property (strong,nonatomic) NSString *strr2222;
+
 
 
 @end
